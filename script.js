@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const jmeno = document.getElementById('jmeno').value;
         
-        alert('Ahoj ' + jmeno + '! Děkujeme za vaši zprávu na fanpage BMW M5 Competition.');
+        alert('Ahoj ' + jmeno + '! Děkujeme za vaši zprávu na BMW M5 Competition.');
         
         formular.reset();
     });
