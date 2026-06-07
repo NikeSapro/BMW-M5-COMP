@@ -1,7 +1,9 @@
 # BMW M5 Competition - Moderní webová prezentace
 
 **Autor:** Alex Levandovský
+
 **Předmět:** Webové technologie (2IT)
+
 **Projekt:** Ročníková práce
 
 ## Úvod
