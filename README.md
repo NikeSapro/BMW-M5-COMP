@@ -15,7 +15,6 @@ Tento projekt je zaměřený na sportovní automobil **BMW M5 Competition**. Web
 
 ## Adresářová struktura
 ```text
-ZAVERNA PRACE/
 ├── car1.webp
 ├── car2.webp
 ├── car3.webp
