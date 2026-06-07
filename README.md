@@ -5,17 +5,17 @@
 **Projekt:** Ročníková práce
 
 ## Úvod
-Tento projekt je moderní webová prezentace zaměřená na sportovní automobil **BMW M5 Competition**. Web slouží jako fanouškovská stránka zobrazující klíčové specifikace, design exteriéru i interiéru a obsahuje funkční kontaktní formulář. Cílem projektu bylo vytvořit čistý web bez použití externích JS/CSS frameworků.
+Tento projekt je zaměřený na sportovní automobil **BMW M5 Competition**. Web slouží jako stránka zobrazující klíčové specifikace, design exteriéru i interiéru.
 
 ## Použité technologie
-* **HTML5** (Sémantická struktura)
-* **CSS3** (Moderní responzivní layouty - Flexbox, Grid, Media Queries)
-* **Vanilla JavaScript** (ES6+)
-* **IDE:** Visual Studio Code s rozšířením Live Server
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **VSC**
 
 ## Adresářová struktura
 Všechny soubory jsou pro maximální přehlednost a jednoduchost umístěny v kořenovém adresáři:
-```text
+’’’text
 ZAVERNA PRACE/
 ├── car1.webp
 ├── car2.webp
