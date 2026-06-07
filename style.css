@@ -1,4 +1,4 @@
-/* Globální reset a nastavení barev (Temný design k M5) */
+/* Globální reset a nastavení barev */
 * {
     box-sizing: border-box;
 }
@@ -12,14 +12,14 @@ body {
     scroll-behavior: smooth; /* Plynulé přejíždění mezi sekcemi */
 }
 
-/* Navigace nahoře (Použití FLEXBOXU - Mobile First pod sebou) */
+/* Navigace nahoře (Použití FLEXBOXU) */
 header {
     background-color: #121214;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px 20px;
-    border-bottom: 3px solid #0066b2; /* BMW modrá */
+    border-bottom: 3px solid #0066b2;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -34,7 +34,7 @@ header {
 }
 
 .logo span {
-    color: #ff0055; /* M červená */
+    color: #ff0055;
 }
 
 header nav a {
@@ -50,7 +50,7 @@ header nav a:hover {
     color: #0066b2;
 }
 
-/* Hlavní úvodní banner (Hero) - OPRAVENÁ CESTA K FOTCE KÁMO */
+/* Hlavní úvodní banner */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -76,7 +76,7 @@ header nav a:hover {
     margin: 0 auto;
 }
 
-/* Styl pro klasické textové sekce */
+/* Styl pro textové sekce */
 .obsah {
     padding: 60px 20px;
     max-width: 900px;
@@ -97,7 +97,7 @@ header nav a:hover {
     color: #dddddd;
 }
 
-/* GALERIE POMOCÍ GRIDU (Přesně podle zadání pro 1 sloupec na mobilu) */
+/* GALERIE POMOCÍ GRIDU */
 .galerie-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -177,7 +177,7 @@ footer {
     border-top: 1px solid #222225;
 }
 
-/* --- RESPONZIVITA PRO POČÍTAČE (Šířka obrazovky nad 768px) --- */
+/* RESPONZIVITA PRO POČÍTAČE (Šířka obrazovky nad 768px) */
 @media (min-width: 768px) {
     header {
         flex-direction: row;
